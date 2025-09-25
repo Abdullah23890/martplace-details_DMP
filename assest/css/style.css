@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* z-index high rakhna zaroori hai */
+    box-shadow: 0 3px 7px gold; /* optional: shadow for better look */
+}
+
+.no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-custom-header{
+    background-color: black;
+    justify-content: center;
+}
+
+.nav-link:hover{
+color: navy;
+text-decoration: underline;
+}
+
+.bg-custom-nav {
+  background-color: orangered;
+}
+
+
+/* search */
+   .search-container {
+      max-width: 400px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      background: white;
+      margin-top: 10px;
+      border-radius: 30px;
+      padding: 8px 15px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .search-container input {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      padding: 8px;
+    }
+
+    .search-container button {
+      background: #007bff;
+      border: none;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background 0.3s;
+      
+    }
+
+    table{
+        border: 1px dashed navy;
+        text-align: center;
+        padding: 3px;
+    }
+
+    .table-img-item{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    th, td{
+        color: navy;
+        font-size: 1.3rem;
+        border: 1px dashed navy;
+        text-align: center;
+    }
